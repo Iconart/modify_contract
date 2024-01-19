@@ -6,7 +6,7 @@ async function main() {
   const CONTRACT_ADDR = "0x56b924b2Ef60e7354119993179c07b7AfFAd43F4"
   const modify = await hre.ethers.getContractAt("Modify", CONTRACT_ADDR);
 
-  await modify.modifyX(41);
+  await modify.modifyX(100);
 
 
 }
